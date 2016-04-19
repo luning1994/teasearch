@@ -1,0 +1,11 @@
+{
+  "name": "Tea Search",
+  "description": "Context menu short cut to search Douban, IMDB or Goodreads for highlighted text.",
+  "version": "0.7",
+  "permissions": ["contextMenus","https://api.douban.com/*"],
+  "background": {
+    "persistent": false,
+    "scripts": ["script.js"]
+  },
+  "manifest_version": 2
+}
